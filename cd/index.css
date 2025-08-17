@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFF9F4; /* Cream White */
+  color: #2C2C2C; /* Charcoal Black */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav {
+  background-color: #800000; /* Deep Maroon */
+  color: #FFF9F4; /* Cream White */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #FFF9F4; /* Cream White */
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #D4AF37; /* Gold */
+}
+
+nav input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #D8A7B1; /* Dusty Rose */
+  background-color: #FFF9F4; /* Cream White */
+  color: #2C2C2C; /* Charcoal Black */
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #D8A7B1; /* Dusty Rose */
+  padding: 15px;
+  background-color: #FFF9F4; /* Cream White */
+  text-align: center;
+  border-radius: 5px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #800000; /* Deep Maroon */
+}
+
+.product-card h3 {
+  color: #2C2C2C; /* Charcoal Black */
+  margin: 10px 0;
+}
+
+.product-card p {
+  color: #2C2C2C; /* Charcoal Black */
+  font-weight: bold;
+}
+
+.product-card button {
+  background-color: #D4AF37; /* Gold */
+  color: #FFF9F4; /* Cream White */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.product-card button:hover {
+  background-color: #B8860B; /* Darker Gold shade */
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #D8A7B1; /* Dusty Rose */
+  padding: 10px 0;
+  background-color: #FFF9F4; /* Cream White */
+}
+
+.cart-item h3 {
+  color: #2C2C2C; /* Charcoal Black */
+}
+
+.cart-item p {
+  color: #2C2C2C; /* Charcoal Black */
+}
+
+.cart-item button {
+  background-color: #D8A7B1; /* Dusty Rose */
+  color: #FFF9F4; /* Cream White */
+  border: none;
+  padding: 5px 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: #C68E9B; /* Darker Dusty Rose shade */
+}
+
+footer {
+  background-color: #800000; /* Deep Maroon */
+  color: #FFF9F4; /* Cream White */
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
