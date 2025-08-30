@@ -30,3 +30,13 @@ The signup/login authentication issue has been successfully fixed.
 Both endpoints return `{"success":true}` with user data when authentication is successful.
 
 The authentication flow is now working correctly - users can sign up and then log in without the "User not found" error.
+
+## Push Codebase to GitHub Repository
+
+- [ ] Check Git status
+- [ ] Initialize Git repository if needed
+- [ ] Add remote origin: https://github.com/inkiadbinershad/CSE-470.git
+- [ ] Add all project files
+- [ ] Commit changes with message "Initial commit of full-stack e-commerce application"
+- [ ] Push to main branch
+- [ ] Verify successful push on GitHub
